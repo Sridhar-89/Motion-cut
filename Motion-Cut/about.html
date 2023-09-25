@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .titlefor {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-900">
+    <main>
+      <section>
+        <a href="index.html" class="absolute top-8 right-8 text-indigo-600 hover:text-indigo-800">
+            Back
+          </a>
+        <h2 class="text-2xl titlefor text-white-1200 mt-4 mb-4 text-center">
+          About me
+        </h2>
+        <div
+          id="ellipse"
+          class="w-80 h-80 bg-yellow-400 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        >
+          <div class="flex flex-col items-center justify-center h-full">
+            <div class="text-center text-black p-6">
+              <p class="text-lg">
+                Hello! I'm Sridhar, a creative enthusiast and a passionate web
+                developer. I believe that the digital world is a canvas where I
+                can bring my ideas to life. With a strong foundation in web
+                technologies, I craft unique and user-friendly online
+                experiences. My journey in web development has been marked by a
+                love for coding and a commitment to staying up-to-date with the
+                latest trends and technologies. I enjoy transforming complex
+                concepts into elegant, functional websites. From front-end
+                design to back-end functionality, I relish every aspect of the
+                development process. Let's connect and bring your digital dreams
+                to reality. Thanks for visiting!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const contentHeight = document.querySelector(".text-lg").offsetHeight;
+
+      // Set the ellipse's dimensions based on the content's height
+      const ellipse = document.getElementById("ellipse");
+      ellipse.style.width = contentHeight + "px";
+      ellipse.style.height = contentHeight + "px";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+
+body {
+    background: linear-gradient(to right, #500137, #07000a);
+}
+.headers{
+    background: linear-gradient(to right, #eaaada, #6b6b69);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.headers1 {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+  }
+  .portfolibg{
+    background: linear-gradient(to right, #500137, #07000a);
+  }
