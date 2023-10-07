@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Set a fixed width and height for the cart item images */
+.cart-item-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+.bdp{
+    background: linear-gradient(to right,
+        #00000a,
+        #2b2b2c,
+        #fbfbfb,
+        #cb93c3);
+    
+}
+.mb{
+    background: linear-gradient(to right, #3c6b6e, #0c0009);
+}
+h1{
+    background: linear-gradient( #f9f8fa, #f7f7f8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+label{
+    background: linear-gradient( #f9f7f9, #faf9fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.n{
+    background: linear-gradient( #faf8fa, #fafafb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;  
+}
